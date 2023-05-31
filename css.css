@@ -218,15 +218,15 @@ header {
     }
 
     .home-page .contaner .text h2 {
-        font-size: 55px;
+        font-size: 47px;
         letter-spacing: 4px;
         padding-top: 40px;
     }
 
     .home-page .contaner .text p {
-        font-size: 21px;
-        letter-spacing: 10px;
-        margin-bottom: 55px;
+        font-size: 19px;
+        letter-spacing: 9px;
+        margin-bottom: 40px;
 
     }
 
@@ -236,13 +236,13 @@ header {
 
     .home-page .contaner .text a i {
         font-size: 30px;
-        margin: 10px;
-        padding-right: 10px;
+        margin: 8px;
+        padding-right: 5px;
         color: #D7D7D9;
     }
 
     .home-page .contaner .photo .photo1 {
-        width: 220px;
+        width: 210px;
         margin: auto;
         background-color: #D7D7D9;
         animation-name: one;
@@ -314,7 +314,7 @@ header {
 
 @media (max-width:767px) {
 .about {
-        margin: 60px;
+        margin: 60px 0;
     }
 
     .about .contaner .about-me {
@@ -348,11 +348,11 @@ header {
     .about .contaner .about-me .text .link a {
         text-decoration: none;
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         color: #D7D7D9;
         background-color: #222326;
-        padding: 8px 25px;
-        margin: 0 15px;
+        padding: 8px 20px;
+        margin: 0 7px;
         border-radius: 5px;
     }
 }
@@ -555,7 +555,7 @@ header {
 
 @media (max-width:767px) {
     .portfolio {
-            padding: 100px 0;
+            padding: 80px 0;
         }
     
         .portfolio .contaner .part {
@@ -566,7 +566,7 @@ header {
         }
     
         .portfolio .contaner .part .part2 {
-            width:90%;
+            width:93%;
             text-align: start;
             border: 1px solid #222326;
             padding-bottom: 20px;
@@ -587,14 +587,14 @@ header {
         }
     
         .portfolio .contaner .part .part2 a h3 {
-            font-size: 30px;
+            font-size: 25px;
             color: #222326;
             padding: 15px 30px;
             text-align: center;
         }
     
         .portfolio .contaner .part .part2 a p {
-            font-size: 20px;
+            font-size: 17px;
             color: #777777;
             padding: 0 10px 20px 10px;
             text-align: center;
@@ -709,7 +709,7 @@ header {
 
 @media (max-width:767px) {
     .contact {
-            height: 75vh;
+            height: 82vh;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -717,7 +717,7 @@ header {
         }
     
         .contact .contaner {
-            width: 85%;
+            width: 90%;
             background-color: #ffffff;
             border-radius: 5px;
             padding: 30px 40px 40px 40px;
@@ -736,9 +736,10 @@ header {
             height: 100%;
             position: relative;
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
-            margin: 0 10px;
+            margin: 0 8px;
         }
     
         .contact .contaner .content .left::before {
@@ -753,23 +754,23 @@ header {
         }
     
         .contact .contaner .content .left .address {
-            margin: 14px;
+            margin: 0px;
             text-align: center;
         }
     
         .contact .contaner .content .left .address i {
-            font-size: 23px;
+            font-size: 18px;
             color: #515D73;
             margin-top: 30px;
         }
     
         .contact .contaner .content .left .address h2 {
-            font-size: 20px;
+            font-size: 16px;
             color: #515D73;
         }
     
         .contact .contaner .content .left .address p {
-            font-size: 17px;
+            font-size: 12px;
             color: #868686;
         }
     
@@ -878,11 +879,11 @@ footer .contaner .text h2 {
         }
     
         footer .contaner .logo img {
-            width: 40px;
+            width: 30px;
         }
     
         footer .contaner .logo h2 {
-            font-size: 25px;
+            font-size: 20px;
             color: #d4d4d4;
             padding: 10px 20px 0 10px;
             letter-spacing: 2px;
@@ -891,7 +892,7 @@ footer .contaner .text h2 {
         footer .contaner .text h2 {
             color: #d4d4d4;
             padding-top: 20px;
-            font-size: 17px;
+            font-size: 15px;
             letter-spacing: 2px;
         }
 }
